@@ -1,4 +1,4 @@
-# OSS Audit - AJIT DIKSHIT (24BCE10834)
+AJIT DIKSHIT (24BCE10834)
 **Chosen Software:** Apache HTTP Server
 
 ## Linux Setup (Ubuntu/Debian)
