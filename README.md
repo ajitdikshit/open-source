@@ -16,7 +16,7 @@ The software being audited is **Git**, developed by Linus Torvalds after the fre
 ## Repository File Structure
 
 ```
-open-source/
+oss-audit-24bce10834/
 │
 ├── README.md                  - This file
 ├── script1_system_identity.sh - Shell Script 1 - System Identity Report
@@ -55,8 +55,8 @@ statement, saves it to a `.txt` file, and displays it.
 
 **1. Clone this repository**
 ```bash
-git clone https://github.com/ajitdikshit/open-source.git
-cd open-source
+git clone https://github.com/ajitdikshit/oss-audit-24bce10834.git
+cd oss-audit-24bce10834
 ```
 
 **2. Make all scripts executable**
