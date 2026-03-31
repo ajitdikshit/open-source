@@ -16,7 +16,7 @@ The software being audited is **Git**, developed by Linus Torvalds after the fre
 ## Repository File Structure
 
 ```
-oss-audit-[rollnumber]/
+open-source/
 │
 ├── README.md                  - This file
 ├── script1_system_identity.sh - Shell Script 1 - System Identity Report
@@ -55,8 +55,8 @@ statement, saves it to a `.txt` file, and displays it.
 
 **1. Clone this repository**
 ```bash
-git clone https://github.com/[your-username]/oss-audit-[rollnumber].git
-cd oss-audit-[rollnumber]
+git clone https://github.com/ajitdikshit/open-source.git
+cd open-source
 ```
 
 **2. Make all scripts executable**
@@ -91,7 +91,7 @@ No arguments required. Audits system directories and Git-specific paths.
 #The command for using the script is:
 
 ```bash
-./script4_log_analyzer.sh [logfile_path] [keyword]
+./script4_log_analyzer.sh 
 ```
 
 Example 1 - using the default keyword "error":
@@ -120,7 +120,7 @@ Running script 5 generates a public manifesto.
 ./script5_manifesto_generator.sh
 ```
 
-You do not need any command line arguments to run the command - there will be 3 questions asked interactively, and your response will be saved in a file named manifesto_[username].txt in your current directory. 
+
 
 Dependencies:
 
